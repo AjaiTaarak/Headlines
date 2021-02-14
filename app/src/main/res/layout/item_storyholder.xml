@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:id="@+id/crd_itemsstory_holder"
+    android:layout_width="100dp"
+    app:cardElevation="@dimen/dime_5"
+    app:cardCornerRadius="50dp"
+    android:layout_margin="@dimen/dimen_10"
+    app:cardBackgroundColor="@color/white"
+    android:orientation="vertical"
+    android:layout_height="100dp">
+    <ImageView
+        android:id="@+id/img_story_channellogo"
+        android:scaleType="centerCrop"
+
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+</androidx.cardview.widget.CardView>

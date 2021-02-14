@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SetupActivity2">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+
+            android:layout_width="match_parent"
+            android:padding="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:src="@drawable/setup2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"/>
+            <TextView
+                android:layout_marginTop="@dimen/dimen_20"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="35dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:text="Almost there."
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="select at least any 4 topics that you ❤️"
+                android:textColor="@color/colorPrimaryDark" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_marginTop="@dimen/dimen_10"
+                android:id="@+id/rv_setup2_topics"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+        </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+    <Button
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:id="@+id/btn_setup2_done"
+        android:drawableTint="@color/orange"
+        android:drawableRight="@drawable/ic_check_black_24dp"
+        android:text="Done"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="end"
+        android:background="@color/black"
+        android:drawablePadding="@dimen/dime_5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
