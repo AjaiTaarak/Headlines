@@ -95,7 +95,7 @@ public class HomeActivity extends AppCompatActivity {
             homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(homeIntent);
         }
-        if(cur_frag==3){
+        if(cur_frag==3 || cur_frag==2){
             navView.setVisibility(View.VISIBLE);
             turntodef();
             menu.findItem(R.id.navigation_home).setIcon(R.drawable.ic_home);
