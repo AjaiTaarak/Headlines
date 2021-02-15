@@ -86,7 +86,7 @@ public class AppConstants {
     public static boolean isNOTNullOrEmpty(String str) {
         return str != null && !str.isEmpty();
     }
-    public static String APIKEY="your-api-key";
+    public static String APIKEY="c2cf12f5256242bdad55ba363680a0bb";
     public static String MEDIANAMES[]={"the-times-of-india","national-geographic","cnn","bbc-news","the-hindu","techradar"};
     public static int MEDIALOGOS[]={R.drawable.toi,R.drawable.natgeo,R.drawable.cnn,R.drawable.bbc,R.drawable.hindu,R.drawable.techradar};
 
